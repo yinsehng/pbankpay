@@ -1,0 +1,10 @@
+com\pbankpay\model\User.class
+com\pbankpay\service\IDictService.class
+com\pbankpay\service\impl\UserServiceImpl.class
+com\pbankpay\model\Dict.class
+com\pbankpay\dao\IDictDao.class
+com\pbankpay\dao\IUserDao.class
+com\pbankpay\service\IUserService.class
+com\pbankpay\controller\UserController.class
+com\pbankpay\model\UserExtend.class
+com\pbankpay\service\impl\DictServiceImpl.class
