@@ -50,7 +50,7 @@
         <!-- sql映射文件路径 -->
         <!-- 自动扫描com/pbankpay/mapping/目录下的所有SQL映射的xml文件, 省掉Configuration.xml里的手工配置
         value="classpath:com/pbankpay/mapping/*.xml"指的是classpath(类路径)下com.demo.mapping包中的所有xml文件 -->
-        <property name="mapperLocations" value="classpath:com/pbankpay/mapping/*.xml" />
+        <property name="mapperLocations" value="classpath*:com/pbankpay/mapping/*.xml" />
     </bean>
 
     <!-- 5.配置扫描器  -->

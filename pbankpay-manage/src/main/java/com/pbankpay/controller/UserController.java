@@ -17,7 +17,7 @@ public class UserController {
      
     @Resource
     private IUserService userService;
-    @Autowired
+    @Resource
     private IDictService dictService;
      
     /*

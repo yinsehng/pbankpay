@@ -8,7 +8,7 @@ import com.pbankpay.service.IDictService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("dictService")
 public class DictServiceImpl implements IDictService {
     
     /**

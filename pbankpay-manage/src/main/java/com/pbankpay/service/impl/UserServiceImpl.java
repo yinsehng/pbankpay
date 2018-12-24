@@ -10,7 +10,7 @@ import com.pbankpay.model.UserExtend;
 import com.pbankpay.service.IUserService;
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("userService")
 public class UserServiceImpl implements IUserService {
     
     //自动装配
